@@ -1,4 +1,5 @@
 package Seminar2_Tasks;
+
 import java.util.*;
 
 /*
@@ -13,7 +14,7 @@ public class Task_4 {
         Scanner scr = new Scanner(System.in);
         String str = scr.nextLine();
         str = str.trim();
-        if(str.isEmpty()) {
+        if (str.isEmpty()) {
             scr.close();
             throw new IllegalArgumentException("Пустую строку вводить нельзя.");
         }
