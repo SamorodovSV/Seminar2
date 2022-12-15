@@ -30,10 +30,9 @@ public class Task_3 {
             int b = 3;
             System.out.println(a / b);
             printSum(23, 234);
-            int[] abc = { 1, 2};
+            int[] abc = {1, 2};
             abc[3] = 9;
-        }
-        catch (ArithmeticException ex) {
+        } catch (ArithmeticException ex) {
             System.out.println("Указатель не может указывать на null!");
         } catch (IndexOutOfBoundsException ex) {
             System.out.println("Массив выходит за пределы своего размера!");
@@ -42,7 +41,8 @@ public class Task_3 {
         }
 
     }
-    public static void printSum(Integer a, Integer b){
+
+    public static void printSum(Integer a, Integer b) {
         System.out.println(a + b);
     }
 }
