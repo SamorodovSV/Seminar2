@@ -17,7 +17,6 @@ public class Task_4 {
             scr.close();
             throw new IllegalArgumentException("Пустую строку вводить нельзя.");
         }
-        else
-            System.out.println(str);
+        System.out.println(str);
     }
 }
