@@ -15,9 +15,9 @@ public class Task_2 {
         int d = 0;
         if (d == 0) {
             System.out.println("На ноль делить нельзя");
-        } else {
-            double catchedRes1 = intArray[8] / d;
-            System.out.println("catchedRes1 = " + catchedRes1);
         }
+        double catchedRes1 = intArray[8] / d;
+        System.out.println("catchedRes1 = " + catchedRes1);
+
     }
 }
